@@ -1,13 +1,13 @@
 Ce repo contient les projets implémentés pendant le cours [Intelligence Artificielle de A à Z](https://www.udemy.com/intelligence-artificielle-az/?couponCode=WEBSITE) en utilisant `PyTorch`.
 
-1. [Installation des modules - Self Driving Car](#installation-des-modules---self-driving-car)
+1. [Installation des modules - Self Driving Car](#installation-des-modules-self-driving-car)
     1. [Installation de PyTorch](#installation-de-pytorch)
     2. [Installation de Kivy](#installation-de-kivy)
     3. [Tester votre installation](#tester-votre-installation)
-2. [Installation des modules - Doom](#installation-des-modules---doom)
+2. [Installation des modules - Doom](#installation-des-modules-doom)
     1. [Installer OpenAI Gym](#installer-openai-gym)
     2. [Valider votre installation](#valider-votre-installation)
-3. [Installation des modules - Breakout](#installation-des-modules---breakout)
+3. [Installation des modules - Breakout](#installation-des-modules-breakout)
     1. [Installer un nouvel environnement](#installer-un-nouvel-environnement)
 4. [F.A.Q](#faq)
     1. [pip3 is not recognized as an internal or external command](#pip3-is-not-recognized-as-an-internal-or-external-command)
