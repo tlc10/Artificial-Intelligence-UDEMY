@@ -9,7 +9,10 @@ Ce repo contient les projets implémentés pendant le cours [Intelligence Artifi
     2. [Valider votre installation](#valider-votre-installation)
 3. [Installation des modules - Breakout](#installation-des-modules-breakout)
     1. [Installer un nouvel environnement](#installer-un-nouvel-environnement)
-4. [F.A.Q](#faq)
+4. [Voiture autonome](#voiture-autonome)
+5. [Doom](#doom)
+6. [Breakout](#breakout)
+7. [F.A.Q](#faq)
     1. [pip3 is not recognized as an internal or external command](#pip3-is-not-recognized-as-an-internal-or-external-command)
     2. [distributed 1.22.0 requires msgpack, which is not installed](#distributed-1220-requires-msgpack-which-is-not-installed)
     3. [tensorflow 1.9.0 has requirement setuptools=39.1.0](#tensorflow-190-has-requirement-setuptools3910)
@@ -244,6 +247,36 @@ spyder
 ```
 
 **Note** : Assurez-vous bien de toujours activer l'environnement (`conda activate breakout`) avant de lancer `spyder`.
+
+## 4. Voiture autonome
+
+Le premier projet va vous apprendre à créer une IA conduisant une voiture autonome simple dans un petit jeu.
+
+**Lectures additionnelles :**
+
+* Arthur Juliani, 2016, [Simple Reinforcement Learning with Tensorflow (Part 4)](https://medium.com/@awjuliani/simple-reinforcement-learning-with-tensorflow-part-4-deep-q-networks-and-beyond-8438a3e2b8df)
+* Tom Schaul et al., [Google DeepMind, 2016, Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf)
+* Michel Tokic, 2010, [Adaptive ε-greedy Exploration in Reinforcement Learning Based on Value Differences](http://tokic.com/www/tokicm/publikationen/papers/AdaptiveEpsilonGreedyExploration.pdf)
+
+## 5. Doom
+
+Dans le deuxième chapitre, nous allons créer une IA utilisant l'image afin de jouer à Doom.
+
+**Lectures additionnelles :**
+
+* Richard S. Sutton and Andrew G. Barto, 1998, [Reinforcement Learning: An Introduction](https://mitpress.mit.edu/books/reinforcement-learning)
+* Volodymyr Mnih et al., 2016, [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/pdf/1602.01783.pdf)
+
+## 6. Breakout
+
+Dans ce dernier chapitre, l'IA va non seulement utiliser l'image mais aussi la composante temporelle pour jouer au casse-briques !
+
+**Lectures additionnelles :**
+
+* Volodymyr Mnih et al, 2016  [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/pdf/1602.01783.pdf)
+* Jaromír Janisch, 2017 [Let’s Make An A3c: Implementation](https://jaromiru.com/2017/03/26/lets-make-an-a3c-implementation/)
+* John Schulman et al., 2016 [High-dimensional Continuous Control Using Generalized Advantage Estimation](https://arxiv.org/pdf/1506.02438.pdf)
+* Arthur Juliani, 2016 [Simple Reinforcement Learning with Tensorflow (Part 8)](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2)
 
 ## F.A.Q.
 
