@@ -1,12 +1,15 @@
 Ce repo contient les projets implémentés pendant le cours [Intelligence Artificielle de A à Z](https://www.udemy.com/intelligence-artificielle-az/?couponCode=WEBSITE) en utilisant `PyTorch`.
 
-1. [Installation des modules](#installation-des-modules)
+1. [Installation des modules - Self Driving Car](#installation-des-modules---self-driving-car)
     1. [Installation de PyTorch](#installation-de-pytorch)
     2. [Installation de Kivy](#installation-de-kivy)
     3. [Tester votre installation](#tester-votre-installation)
-    4. [Installer OpenAI Gym](#installer-openai-gym)
-    5. [Valider votre installation](#valider-votre-installation)
-2. [F.A.Q](#faq)
+2. [Installation des modules - Doom](#installation-des-modules---doom)
+    1. [Installer OpenAI Gym](#installer-openai-gym)
+    2. [Valider votre installation](#valider-votre-installation)
+3. [Installation des modules - Breakout](#installation-des-modules---breakout)
+    1. [Installer un nouvel environnement](#installer-un-nouvel-environnement)
+4. [F.A.Q](#faq)
     1. [pip3 is not recognized as an internal or external command](#pip3-is-not-recognized-as-an-internal-or-external-command)
     2. [distributed 1.22.0 requires msgpack, which is not installed](#distributed-1220-requires-msgpack-which-is-not-installed)
     3. [tensorflow 1.9.0 has requirement setuptools=39.1.0](#tensorflow-190-has-requirement-setuptools3910)
@@ -15,7 +18,7 @@ Ce repo contient les projets implémentés pendant le cours [Intelligence Artifi
     6. [No module named 'kivy'](#no-module-named-kivy)
     7. [No module named 'matplotlib'](#no-module-named-matplotlib)
 
-## Installation des modules
+## Installation des modules - Self Driving Car
 
 Après avoir installé [Anaconda](https://anaconda.org/), suivre les instructions suivantes :
 
@@ -169,6 +172,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import torch
 ```
 
+## Installation des modules - Doom
+
 ### Installer OpenAI Gym
 
 `OpenAI Gym` est à installer pour les parties 2 et 3 du cours.
@@ -217,6 +222,28 @@ env = gym.make('VizdoomBasic-v0')
 Vous devriez ne pas avoir de message d'erreur.
 
 Si vous en obtenez un, retentez les étapes ci-dessus et regardez la FAQ ci-dessous pour obtenir de l'aide.
+
+## Installation des modules - Breakout
+
+### Installer un nouvel environnement
+
+Pour Breakout, on va devoir créer un nouvel environnement Anaconda sous Python 2.7 afin de s'assurer de la compatibilité avec les modules utilisés.
+
+Dans la console, sous Mac ou Ubuntu :
+
+```
+conda create -n breakout python=2.7
+conda activate breakout
+conda install spyder
+conda install -c pytorch pytorch-cpu=0.3.1
+pip install gym==0.7.4
+conda install -c menpo opencv=2.4.11
+pip install atari-py==0.0.21
+conda install -c conda-forge ffmpeg=3.2.4
+spyder
+```
+
+**Note** : Assurez-vous bien de toujours activer l'environnement (`conda activate breakout`) avant de lancer `spyder`.
 
 ## F.A.Q.
 
