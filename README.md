@@ -5,6 +5,7 @@ Ce repo contient les projets implémentés pendant le cours [Intelligence Artifi
     2. [Installation de Kivy](#installation-de-kivy)
     3. [Tester votre installation](#tester-votre-installation)
     4. [Installer OpenAI Gym](#installer-openai-gym)
+    5. [Valider votre installation](#valider-votre-installation)
 2. [F.A.Q](#faq)
     1. [pip3 is not recognized as an internal or external command](#pip3-is-not-recognized-as-an-internal-or-external-command)
     2. [distributed 1.22.0 requires msgpack, which is not installed](#distributed-1220-requires-msgpack-which-is-not-installed)
