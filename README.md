@@ -1,6 +1,10 @@
 Ce repo contient les projets implémentés pendant le cours [Intelligence Artificielle de A à Z](https://www.udemy.com/intelligence-artificielle-az/?couponCode=WEBSITE) en utilisant `PyTorch`.
 
 1. [Installation des modules](#installation-des-modules)
+    1. [Installation de PyTorch](#installation-de-pytorch)
+    2. [Installation de Kivy](#installation-de-kivy)
+    3. [Tester votre installation](#tester-votre-installation)
+    4. [Installer OpenAI Gym](#installer-openai-gym)
 2. [F.A.Q](#faq)
     1. [pip3 is not recognized as an internal or external command](#pip3-is-not-recognized-as-an-internal-or-external-command)
     2. [distributed 1.22.0 requires msgpack, which is not installed](#distributed-1220-requires-msgpack-which-is-not-installed)
@@ -163,6 +167,55 @@ Type "help", "copyright", "credits" or "license" for more information.
 [GCC 7.3.0]
 >>> import torch
 ```
+
+### Installer OpenAI Gym
+
+`OpenAI Gym` est à installer pour les parties 2 et 3 du cours.
+
+Ouvrir un terminal et taper les commandes suivantes :
+
+```
+conda activate artificialintelligenceaz
+git clone https://github.com/openai/gym
+cd gym
+pip install -e .
+```
+
+**Installer l'environnement :**
+
+Pour les utilisateurs de Mac :
+
+```
+brew install cmake boost boost-python sdl2 swig wget
+```
+
+Pour les utilisateurs de Ubuntu :
+
+```
+sudo apt-get install -y python-numpy python-dev cmake zlib1g-dev libjpeg-dev xvfb ffmpeg xorg-dev python-opengl libboost-all-dev libsdl2-dev swig
+```
+
+**Installer Vizdoomgym :**
+
+```
+git clone https://github.com/simontudo/vizdoomgym.git
+cd vizdoomgym
+pip install -e .
+```
+
+### Valider votre installation
+
+Pour être sûr que tout fonctionne, ouvrir `python` à partir de la console et tenter les commandes suivantes :
+
+```
+import gym
+import vizdoomgym
+env = gym.make('VizdoomBasic-v0')
+```
+
+Vous devriez ne pas avoir de message d'erreur.
+
+Si vous en obtenez un, retentez les étapes ci-dessus et regardez la FAQ ci-dessous pour obtenir de l'aide.
 
 ## F.A.Q.
 
