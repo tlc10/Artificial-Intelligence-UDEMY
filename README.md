@@ -1,6 +1,12 @@
 Ce repo contient les projets implémentés pendant le cours [Intelligence Artificielle de A à Z](https://www.udemy.com/intelligence-artificielle-az/?couponCode=WEBSITE) en utilisant `PyTorch`.
 
 1. [Installation des modules](#installation-des-modules)
+2. [F.A.Q](#faq)
+    1. [pip3 is not recognized as an internal or external command](#pip3-is-not-recognized-as-an-internal-or-external-command)
+    2. [distributed 1.22.0 requires msgpack, which is not installed](#distributed-1220-requires-msgpack-which-is-not-installed)
+    3. [tensorflow 1.9.0 has requirement setuptools=39.1.0](#tensorflow-190-has-requirement-setuptools3910)
+    4. [No module named 'ai'](#no-module-named-ai)
+    5. [No module named 'torch'](#no-module-named-torch)
 
 ## Installation des modules
 
