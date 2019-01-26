@@ -7,6 +7,8 @@ Ce repo contient les projets implémentés pendant le cours [Intelligence Artifi
     3. [tensorflow 1.9.0 has requirement setuptools=39.1.0](#tensorflow-190-has-requirement-setuptools3910)
     4. [No module named 'ai'](#no-module-named-ai)
     5. [No module named 'torch'](#no-module-named-torch)
+    6. [No module named 'kivy'](#no-module-named-kivy)
+    7. [No module named 'matplotlib'](#no-module-named-matplotlib)
 
 ## Installation des modules
 
@@ -80,6 +82,7 @@ python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
 python -m pip install kivy.deps.gstreamer
 python -m pip install kivy.deps.angle
 python -m pip install kivy
+python -m pip install pygame
 ```
 
 La première étape consiste à mettre à jour `pip` , `wheel` , et `setuptools`. Il est possible que mettre à jour `setuptools` casse l'installation de PyTorch. Si jamais c'est le cas, réinstallez une version précédente avec :
@@ -100,6 +103,7 @@ Dans la console, tapez :
 brew install pkg-config sdl2 sdl2_image sdl2_ttf sdl2_mixer gstreamer
 pip install Cython==0.28.3
 pip install kivy
+pip install pygame
 ```
 
 **Notes pour Linux**
@@ -132,6 +136,7 @@ sudo apt-get install -y \
 sudo pip install --upgrade pip virtualenv setuptools
 pip install Cython==0.28.2
 pip install kivy
+pip install pygame
 ```
 
 Et voilà !
@@ -203,3 +208,19 @@ En premier, vérifiez si vous êtes bien dans l'environnement que vous avez cré
 Si oui, alors vérifiez avec `conda list` la liste des modules installés. PyTorch ne devrait pas y être si vous avez ce message d'erreur.
 
 Refaites alors simplement les instructions d'installation pour installer PyTorch et assurez-vous qu'il n'y a pas d'erreur dans la console. Ensuite, lancez `spyder` à partir de la console.
+
+### No module named 'kivy'
+
+Si l'installation de `kivy` s'est bien passée et que vous avez réussi à le lancer dans la console `python` mais que vous obtenez le message `No module named 'kivy'` dans Spyder, ça veut dire que Spyder n'est pas installé dans votre environnement.
+
+Pour réparer ce problème :
+
+`conda install spyder`
+
+### No module named 'matplotlib'
+
+Si vous obtenez ce message dans Spyder, `No module named 'matplotlib'`, alors c'est que ce module n'est pas installé.
+
+Pour l'installer :
+
+`conda install matplotlib`
