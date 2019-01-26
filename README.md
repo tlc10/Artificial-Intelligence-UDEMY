@@ -37,13 +37,16 @@ Pour créer un environnement, taper les commandes suivantes dans la console **av
 conda create --name artificialintelligenceaz python=3.6 anaconda
 conda activate artificialintelligenceaz
 conda install pytorch-cpu torchvision-cpu -c pytorch
+spyder
 ```
 
 La première ligne crée l'environnement sous Python 3.6.
 
 La deuxième ligne active l'environnement. **Vous devrez activer l'environnement à chaque fois que vous reprenez votre travail dans ce projet.**
 
-La dernière ligne dépend de votre OS (Mac, Linux, ou Windows), utilisez le site de PyTorch pour avoir la commande exacte.
+La troisième ligne dépend de votre OS (Mac, Linux, ou Windows), utilisez le site de PyTorch pour avoir la commande exacte.
+
+La quatrième ligne lance Spyder. Il est important de le lancer à partir de la console pour bien rester dans l'environnement que vous venez de créer.
 
 ### Installation de Kivy
 
@@ -150,4 +153,47 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import torch
 ```
 
+## F.A.Q.
 
+### pip3 is not recognized as an internal or external command
+
+Si vous obtenez l'erreur `'pip3' is not recognized as an internal or external command`, utilisez `pip` au lieu de `pip3`.
+
+### distributed 1.22.0 requires msgpack, which is not installed 
+
+Si vous obtenez l'erreur `distributed 1.22.0 requires msgpack, which is not installed`, alors installez msgpack avec la ligne suivante :
+
+`conda install -c conda-forge msgpack-python`
+
+### tensorflow 1.9.0 has requirement setuptools<=39.1.0
+
+Si vous obtenez l'erreur `tensorflow 1.9.0 has requirement setuptools<=39.1.0, but you'll have setuptools 39.2.0 which is incompatible`, alors il vous faut installer une version de `setuptools` inférieure.
+
+Vous pouvez le faire avec la commande suivante :
+
+`conda install setuptools=39.1.0`
+
+### No module named 'ai'
+
+Ça veut dire que vous n'êtes pas dans le bon répertoire de travail.
+
+Dans Spyder, vous pouvez voir votre répertoire de travail dans la barre en haut à droite.
+
+Pour changer de répertoire de travail, utilisez l'Explorateur de fichiers, et double-cliquer sur le dossier dans lequel vous voulez vous mettre. Simplement cliquer sur les petites flèches déroulantes ne suffit pas, il faut bien double-cliquer sur le dossier.
+
+Vous pouvez aussi changer le répertoire de travail dans la console de Spyder directement en tapant :
+
+```
+import os
+os.chdir("/path/to/dir")
+```
+
+### No module named 'torch'
+
+Ça veut dire que PyTorch n'est pas installé.
+
+En premier, vérifiez si vous êtes bien dans l'environnement que vous avez créé avec Anaconda (cf les instructions d'installation).
+
+Si oui, alors vérifiez avec `conda list` la liste des modules installés. PyTorch ne devrait pas y être si vous avez ce message d'erreur.
+
+Refaites alors simplement les instructions d'installation pour installer PyTorch et assurez-vous qu'il n'y a pas d'erreur dans la console. Ensuite, lancez `spyder` à partir de la console.
