@@ -20,7 +20,7 @@ Ce repo contient les projets implémentés pendant le cours [Intelligence Artifi
     5. [No module named 'torch'](#no-module-named-torch)
     6. [No module named 'kivy'](#no-module-named-kivy)
     7. [No module named 'matplotlib'](#no-module-named-matplotlib)
-    8. [L'installation ne fonctionne pas sous Windows](#l-installation-ne-fonctionne-pas-sous-windows)
+    8. [L'installation ne fonctionne pas sous Windows](#linstallation-ne-fonctionne-pas-sous-windows)
 
 ## Installation des modules - Self Driving Car
 
