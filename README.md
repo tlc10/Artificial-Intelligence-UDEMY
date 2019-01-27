@@ -20,6 +20,7 @@ Ce repo contient les projets implémentés pendant le cours [Intelligence Artifi
     5. [No module named 'torch'](#no-module-named-torch)
     6. [No module named 'kivy'](#no-module-named-kivy)
     7. [No module named 'matplotlib'](#no-module-named-matplotlib)
+    8. [L'installation ne fonctionne pas sous Windows](#l-installation-ne-fonctionne-pas-sous-windows)
 
 ## Installation des modules - Self Driving Car
 
@@ -338,3 +339,9 @@ Si vous obtenez ce message dans Spyder, `No module named 'matplotlib'`, alors c'
 Pour l'installer :
 
 `conda install matplotlib`
+
+### L'installation ne fonctionne pas sous Windows
+
+Les modules utilisés dans les chapitres 2 et 3 ne sont pas compatibles avec Windows. Nous aurions évidemment préféré vous proposer une solution utilisant Windows si elle existait.
+
+Mais Linux est généralement l'environnement de développement préféré par la communauté Python, c'est pourquoi nous vous proposons une solution alternative via l'installation d'une machine virtuelle.
