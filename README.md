@@ -21,6 +21,7 @@ Ce repo contient les projets implémentés pendant le cours [Intelligence Artifi
     6. [No module named 'kivy'](#no-module-named-kivy)
     7. [No module named 'matplotlib'](#no-module-named-matplotlib)
     8. [L'installation ne fonctionne pas sous Windows](#linstallation-ne-fonctionne-pas-sous-windows)
+    9. [Est-il possible de récupérer les PPT ?](#est-il-possible-de-récupérer-les-ppt-)
 
 ## Installation des modules - Self Driving Car
 
@@ -345,3 +346,7 @@ Pour l'installer :
 Les modules utilisés dans les chapitres 2 et 3 ne sont pas compatibles avec Windows. Nous aurions évidemment préféré vous proposer une solution utilisant Windows si elle existait.
 
 Mais Linux est généralement l'environnement de développement préféré par la communauté Python, c'est pourquoi nous vous proposons une solution alternative via l'installation d'une machine virtuelle.
+
+### Est-il possible de récupérer les PPT ?
+
+Les fichiers powerpoint ne sont pas disponibles.
