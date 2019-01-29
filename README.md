@@ -9,9 +9,9 @@ Ce repo contient les projets implémentés pendant le cours [Intelligence Artifi
     2. [Valider votre installation](#valider-votre-installation)
 3. [Installation des modules - Breakout](#installation-des-modules-breakout)
     1. [Installer un nouvel environnement](#installer-un-nouvel-environnement)
-4. [Voiture autonome](#voiture-autonome)
-5. [Doom](#doom)
-6. [Breakout](#breakout)
+4. [Voiture autonome](#voiture-autonome-lectures-additionnelles)
+5. [Doom](#doom-lectures-additionnelles)
+6. [Breakout](#breakout-lectures-additionnelles)
 7. [F.A.Q](#faq)
     1. [pip3 is not recognized as an internal or external command](#pip3-is-not-recognized-as-an-internal-or-external-command)
     2. [distributed 1.22.0 requires msgpack, which is not installed](#distributed-1220-requires-msgpack-which-is-not-installed)
@@ -250,7 +250,7 @@ spyder
 
 **Note** : Assurez-vous bien de toujours activer l'environnement (`conda activate breakout`) avant de lancer `spyder`.
 
-## 4. Voiture autonome
+## Voiture autonome - Lectures additionnelles
 
 Le premier projet va vous apprendre à créer une IA conduisant une voiture autonome simple dans un petit jeu.
 
@@ -260,7 +260,7 @@ Le premier projet va vous apprendre à créer une IA conduisant une voiture auto
 * Tom Schaul et al., [Google DeepMind, 2016, Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf)
 * Michel Tokic, 2010, [Adaptive ε-greedy Exploration in Reinforcement Learning Based on Value Differences](http://tokic.com/www/tokicm/publikationen/papers/AdaptiveEpsilonGreedyExploration.pdf)
 
-## 5. Doom
+## Doom - Lectures additionnelles
 
 Dans le deuxième chapitre, nous allons créer une IA utilisant l'image afin de jouer à Doom.
 
@@ -269,7 +269,7 @@ Dans le deuxième chapitre, nous allons créer une IA utilisant l'image afin de 
 * Richard S. Sutton and Andrew G. Barto, 1998, [Reinforcement Learning: An Introduction](https://mitpress.mit.edu/books/reinforcement-learning)
 * Volodymyr Mnih et al., 2016, [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/pdf/1602.01783.pdf)
 
-## 6. Breakout
+## Breakout - Lectures additionnelles
 
 Dans ce dernier chapitre, l'IA va non seulement utiliser l'image mais aussi la composante temporelle pour jouer au casse-briques !
 
